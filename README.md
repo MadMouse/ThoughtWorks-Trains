@@ -74,8 +74,8 @@ Input:  A directed graph where a node represents a town and an edge represents a
   <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/7_run_app.png" width="350"/>
 </p>    
 
-       The excution will fail as the command line argument is missing, edit run configuration and add command line argument to "validroutes.txt" 
-       as per the exceution section.
+       The excution will fail as the command line argument is missing, edit run configuration and 
+       add command line argument to "validroutes.txt" as per the exceution section.
 ## Architecture       
     Folder
     
