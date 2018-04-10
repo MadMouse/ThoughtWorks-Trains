@@ -37,3 +37,49 @@ Input:  A directed graph where a node represents a town and an edge represents a
         Output #10: 7
         
         
+# Application 
+
+## Setup
+       Import application into IntelliJ.
+       
+## Architecture       
+    Folder
+    
+        Applicaction classes are stored below src folder.
+        --> src
+            Trains              - Main Execution Class.
+            TrainRouteHelper    - TrainRouteHelper called from Main class to call all functions.
+             
+        Test classes are stored below test folder.
+        --> test
+            TrainTestHelperTest - TrainRouteHelper Tester class. 
+    
+
+## Console Output
+        ThoughtWorks Train Problem
+        ----- Loading Valid Routes 
+            AB5,BC4,CD8,DC8,DE6,AD5,CE2,EB3,AE7,
+        ----- Loading Valid Routes 
+        The distance of the route A-B-C
+        Output #1 : 9
+        The distance of the route A-D
+        Output #2 : 5
+        The distance of the route A-D-C
+        Output #3 : 13
+        The distance of the route A-E-B-C-D
+        Output #4 : 22
+        The distance of the route A-E-D
+        Output #5 : NO SUCH ROUTE
+        The number of trips starting at C and ending at C with a maximum of 3 stops
+        Output #6 : 2
+        The number of trips starting at A and ending at C with exactly 4 stops
+        Output #7 : 3
+        The length of the shortest route (in terms of distance to travel) from A to C
+        Output #8 : 9
+        The length of the shortest route (in terms of distance to travel) from B to B
+        Output #9 : 9
+        The number of different routes from C to C with a distance of less than 30
+        data, the trips are: CDC, CEBC, CEBCDC, CDCEBC, CDEBC, CEBCEBC, CEBCEBCEBC
+        Output #10 : 7
+        
+        Process finished with exit code 0

@@ -46,10 +46,17 @@ public class Trains {
             System.exit(0);
         }
 
-        String[] routes =  readValidRoutesFile(args[0].toString());
-
-
         System.out.println("ThoughtWorks Train Problem");
+
+        String[] routes =  readValidRoutesFile(args[0].toString());
+        System.out.println("----- Loading Valid Routes ");
+        for(String route : routes) {
+            System.out.print(route + ",");
+        }
+        System.out.println("");
+        System.out.println("----- Loading Valid Routes ");
+
+
         TrainRouteHelper trainHelper = new TrainRouteHelper(routes);
 
         System.out.println("The distance of the route A-B-C");
