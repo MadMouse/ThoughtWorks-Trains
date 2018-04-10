@@ -40,37 +40,42 @@ Input:  A directed graph where a node represents a town and an edge represents a
 # Application 
 
 ## Setup
+
+       Extract files into a directory.
+        
        Import application into IntelliJ.
 
 <p align="center">
   <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/1_import.png" width="350"/>
 </p>    
 
+        Select the gradle file.
 <p align="center">
   <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/2_select_gradle.png" width="350"/>
 </p>    
-
+       Make sure the JVM is 1.8 
 <p align="center">
   <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/3_gradle_jvm.png" width="350"/>
 </p>    
-
+        Select Ok on Import into Gradle
 <p align="center">
   <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/4_select_import_gradle.png" width="350"/>
 </p>    
-
+        There will be a box that appears in the bottom right corner select "Enable Auto-Import.
 <p align="center">
   <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/5_select_auto_import.png" width="350"/>
 </p>    
-
+        Navigate to the Train.java move down to Main method.
 <p align="center">
   <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/6_select_trains.png" width="350"/>
 </p>    
-
+        Click on the run icon nect to the method name.
 <p align="center">
   <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/7_run_app.png" width="350"/>
 </p>    
 
-       
+       The excution will fail as the command line argument is missing, edit run configuration and add command line argument to "validroutes.txt" 
+       as per the exceution section.
 ## Architecture       
     Folder
     
