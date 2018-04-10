@@ -41,6 +41,35 @@ Input:  A directed graph where a node represents a town and an edge represents a
 
 ## Setup
        Import application into IntelliJ.
+
+<p align="center">
+  <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/1_import.png" width="350"/>
+</p>    
+
+<p align="center">
+  <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/2_select_gradle.png" width="350"/>
+</p>    
+
+<p align="center">
+  <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/3_gradle_jvm.png" width="350"/>
+</p>    
+
+<p align="center">
+  <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/4_select_import_gradle.png" width="350"/>
+</p>    
+
+<p align="center">
+  <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/5_select_auto_import.png" width="350"/>
+</p>    
+
+<p align="center">
+  <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/6_select_trains.png" width="350"/>
+</p>    
+
+<p align="center">
+  <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/7_run_app.png" width="350"/>
+</p>    
+
        
 ## Architecture       
     Folder
