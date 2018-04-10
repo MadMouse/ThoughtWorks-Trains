@@ -21,7 +21,7 @@ Input:  A directed graph where a node represents a town and an edge represents a
         The length of the shortest route (in terms of distance to travel) from B to B.
         The number of different routes from C to C with a distance of less than 30.  In the sample data, the trips are: CDC, CEBC, CEBCDC, CDCEBC, CDEBC, CEBCEBC, CEBCEBCEBC.
          
-##Test Input:
+## Test Input:
         For the test input, the towns are named using the first few letters of the alphabet from A to D.  A route between two towns (A to B) with a distance of 5 is represented as AB5.
         Graph: AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
         Expected Output:
