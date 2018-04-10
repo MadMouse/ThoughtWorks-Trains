@@ -54,6 +54,12 @@ Input:  A directed graph where a node represents a town and an edge represents a
         --> test
             TrainTestHelperTest - TrainRouteHelper Tester class. 
     
+        validroutes.txt - file containing valid routes array. 
+
+## Execution
+    
+    --> First Parameter is the Valid Routes file. 
+    
 
 ## Console Output
         ThoughtWorks Train Problem
