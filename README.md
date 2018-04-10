@@ -59,7 +59,11 @@ Input:  A directed graph where a node represents a town and an edge represents a
 ## Execution
     
     --> First Parameter is the Valid Routes file. 
-    
+    Add args to the IntelliJ
+
+<p align="center">
+  <img src="https://github.com/MadMouse/ThoughtWorks-Trains/blob/master/images/intllij-args.png" width="350"/>
+</p>    
 
 ## Console Output
         ThoughtWorks Train Problem
